@@ -1,16 +1,21 @@
 # Python Project 1: Calculator (CLI) 🔢💻
 
-## 📌 Problem Statement:  
+## 📌 Problem Statement  
 Build a simple command-line calculator that performs basic arithmetic: addition, subtraction, multiplication, and division.
 
-## 🧠 What You'll Learn:  
+---
+
+## 🧠 What You'll Learn  
 - Taking user input  
 - Writing functions  
 - Using if/else statements  
 - Handling edge cases (like division by zero)
 
-## ✅ Python Code:
-'' 
+---
+
+## ✅ Python Code  
+
+```python
 def add(x, y):
     return x + y
 
@@ -48,15 +53,14 @@ else:
     result = "Invalid operator"
 
 print("Result:", result)
-
-''
+```
 ## 📥 Sample Input:  
 
-Enter your choice (+, -, *, /): +
-Enter first number: 10  
-Enter second number: 5  
+- Enter your choice (+, -, *, /): +
+- Enter first number: 10  
+- Enter second number: 5  
 
 
 ## 📤 Output:  
 
-Result: 15.0
+- Result: 15.0
